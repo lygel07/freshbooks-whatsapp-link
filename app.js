@@ -1,5 +1,5 @@
 const express = require('express');
-const { getShareLink, getShareLink2 } = require('./utils');
+const { getShareLink } = require('./utils');
 
 // Create an express app and add JSON 
 const app = express();
