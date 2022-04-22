@@ -1,8 +1,8 @@
 const postwhatsapp = require('./postwhatsapp');
-const getShareLink = require('./getShareLink');
+const getShareLink = require('./sendShareLink');
 
 
 module.exports = {
-    getShareLink,
+    sendShareLink,
     postwhatsapp
 }

@@ -22,7 +22,7 @@ app.post('/webhooks/ready',function (req,res){
     var name = req.body.name;
     if(name == "invoice.create" || name == "invoice.update"){
       var { account_id, object_id } = req.body;  
-      getShareLink(account_id,object_id);
+      sendShareLink(account_id,object_id);
     };
   })
 
